@@ -12,8 +12,10 @@ O Índice Bovespa, ou Ibovespa, é o principal indicador de desempenho das açõ
 
 **Modelos Testados**
 ---
+
 * Modelo Arima
 * Modelo Prophet
+  
 **Resultados**
 ---
 
