@@ -23,17 +23,19 @@ Neste projeto, analisamos e previmos investimentos utilizando dados de 2005 a 20
 **Resultados**
 ---
 
-No gráfico abaixo observa-se que a base histórica possui oscilações ao longo do período. Sendo identificadas quedas significativas no fechamento da IBOVESPA em 2009, 2016 e 2019. Essas quedas estão relacionadas com a crise imobiliária mundial iniciada nos Estados Unidos, a  crise na política brasileira e a pandemia do COVID-19, respectivamente.
+Para a análise foram coletados dados de preços (máximos, mínimos, aberturas e fechamentos) em  periodicidades diárias, conforme pode-se observar no gráfico. Destaca-se que a base histórica possui oscilações ao longo do período. Sendo identificadas quedas significativas no fechamento da IBOVESPA em 2009, 2016 e 2019. Essas quedas estão relacionadas com a crise imobiliária mundial iniciada nos Estados Unidos, a  crise na política brasileira e a pandemia do COVID-19, respectivamente.
 
 ![](figure/fechamento_hist.png)
 
+* **Modelos Arima e Prophet**
+
+Após os tratamentos pertinentes na base  foi realizada a divisão dos dados entre treino e teste. Sendo que foi utilizado 80% para treino e 20% para teste. 
+
+![](figure/fechamento_hist_treino_teste.png)
 
 
 
 
-Prophet : (inserir índice)
-Arima : (inserir índice)
-Ambos com baixa assertividade. 
 
 Principais motivos : 
 1) Complexidade do mercado de ações : O mercado de ações é altamente volátil e influenciado por fatores imprevisíveis, como notícias, eventos políticos e mudanças econômicas.
