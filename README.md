@@ -22,7 +22,14 @@ Neste projeto, analisamos e previmos investimentos utilizando dados de 2005 a 20
   
 **Resultados**
 ---
+Prophet : (inserir índice)
+Arima : (inserir índice)
+Ambos com baixa assertividade. 
 
+Principais motivos : 
+1) Complexidade do mercado de ações : O mercado de ações é altamente volátil e influenciado por fatores imprevisíveis, como notícias, eventos políticos e mudanças econômicas.
+2) Limitações de tendência linear : Os modelos assumem uma tendência de crescimento não linear, mas muitas ações têm padrões mais complexos. A tendência linear pode não se ajustar bem a esses dados.
+3) Previsões de longo prazo : Os modelos são mais adequados para previsões de curto a médio prazo. 
 
 **Conclusões**
 ---
