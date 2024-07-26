@@ -15,10 +15,10 @@ Neste projeto, analisamos e previmos investimentos utilizando dados de 2005 a 20
 **Modelos Testados**
 ---
 
-* Modelo Arima
-* Modelo Prophet
-* Modelo Sarima
-* Modelo Naive
+* Arima
+* Prophet
+* Sarima
+* Naive
   
 **Resultados**
 ---
