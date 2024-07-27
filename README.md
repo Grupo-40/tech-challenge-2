@@ -34,7 +34,34 @@ Após os tratamentos pertinentes na base  foi realizada a divisão dos dados ent
 ![](figure/fechamento_hist_treino_teste.png)
 
 
+* **Realizando as previsões com o Modelo Arima**
 
+Inicialmente utilizou-se a predição para os próximos 15 dias (utilizando 80% treino e 20% teste). Este apresentou um RMSE (Root Mean Squared Error) de 1%. 
+
+![](figure/base_hist_80_20_15_dias_arima.png)
+
+
+Posteriormente, realizando predição para os próximos 15 dias (base de treino (03-01-2005 - 01/07/2024)). Obtendo-se um RMSE (Root Mean Squared Error) de 1,3%. 
+
+![](figure/base_hist_completa_15_dias_arima.png)
+
+
+O modelo Auto Arima apresentou bons resultados quando utilizado para prever poucos dias.
+
+
+* **Realizando as previsões com o Modelo Prophet**
+
+Inicialmente utilizou-se a predição para os próximos 15 dias (utilizando 80% treino e 20% teste). Este apresentou um RMSE (Root Mean Squared Error) de 16%. 
+
+![](figure/base_hist_80_20_15_dias_prophet.png)
+
+
+Posteriormente, realizando predição para os próximos 15 dias (utilizando 95% treino e 5% teste). Obtendo-se um RMSE (Root Mean Squared Error) de 6%. 
+
+![](figure/base_hist_completa_15_dias_prophet.png)
+
+
+O modelo Prophet apresentou bons resultados.
 
 
 Principais motivos : 
