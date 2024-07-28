@@ -10,7 +10,7 @@ O Índice Bovespa, ou Ibovespa, é o principal indicador de desempenho das açõ
 
 **Fonte de Dados:** [Site da Investing](https://br.investing.com/indices/bovespa-historical-data). 
 
-Neste projeto, analisamos e previmos investimentos utilizando dados de 2005 a 2024. Dividimos os dados em períodos anuais e, posteriormente, em intervalos de 180 dias, para identificar padrões e tendências de mercado. Aplicamos modelos de previsão para intervalos de 3 e 5 dias, com o objetivo de melhorar a precisão e entender as variações de curto prazo. Esta abordagem detalhada visa aprimorar a tomada de decisão em investimentos financeiros.
+Neste projeto, analisamos e previmos investimentos utilizando dados de 2005 a 2024. Dividimos os dados em períodos anuais e, posteriormente, em intervalos de 180 dias, para identificar padrões e tendências de mercado. Aplicamos modelos de previsão para intervalos de 3 e 15 dias, com o objetivo de melhorar a precisão e entender as variações de curto prazo. Esta abordagem detalhada visa aprimorar a tomada de decisão em investimentos financeiros.
 
 **Modelos Testados**
 ---
