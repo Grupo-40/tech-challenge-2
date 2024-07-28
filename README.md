@@ -42,7 +42,7 @@ Após os tratamentos pertinentes na base foi realizada a divisão dos dados entr
   
 Aplicou-se o modelo ARIMA com os termos “p”, “d” e “q” com os valores 1, 1 e 1 respectivamente. Assim obteve-se um RMSE (Root Mean Squared Error) de 11%. A determinação dos valores dos termos pode não ser exata, dado que depende da análise do observador, assim, podendo ser incorreta. Entendendo esta dificuldade, utilizou-se a função **pmd.arima.auto_arima**. Está foi projetada para selecionar o modelo ARIMA ideal. 
 
-Para realizar predição futura para os próximos, considerou-se 10 dias teste e 5 para previsão futura, para isso utilizou-se a base histórica (base de treino (03-01-2005 - 01/07/2024)). Obtendo-se um RMSE (Root Mean Squared Error) de 1,3%. 
+Para realizar predição, considerou-se 10 dias teste e 5 para previsão futura, para isso utilizou-se a base histórica (base de treino (03-01-2005 - 01/07/2024)). Obtendo-se um RMSE (Root Mean Squared Error) de 1,3%. 
 
 ![](figure/base_hist_completa_15_dias_arima.png)
 
@@ -57,7 +57,7 @@ Inicialmente, assim como no Arima, utilizou-se dados para 10 dias teste e 5 para
 ![](figure/base_hist_80_20_15_dias_prophet.png)
 
 
-Posteriormente, realizando considerando as mesmas informações anteriores, foi utilizado 95% treino e 5% teste. Obtendo-se um RMSE de 6%. 
+Posteriormente, considerando as mesmas informações anteriores, foi utilizado 95% treino e 5% teste. Obtendo-se um RMSE de 6%. 
 
 ![](figure/base_hist_completa_15_dias_prophet.png)
 
