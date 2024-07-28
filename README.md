@@ -87,6 +87,5 @@ Principais motivos :
 **Referências Bibliográficas**
 ---
 SILVEIRA, P. H. M. (2019). O que move o preço da ação? Um estudo sobre as maiores variações diárias do Ibovespa na década de 2010.<br>
-
-[Site Investing](https://br.investing.com/indices/bovespa-historical-data)
+IBOVESPA(IBOV).Inventing.com, 2024. Disponível: <https://br.investing.com/indices/bovespa-historical-data>. Acesso em: 16 de jul de 2024.
 
