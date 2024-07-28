@@ -66,7 +66,7 @@ O modelo Prophet apresentou resultados medianos, sendo mais eficaz em previsões
 
 * **Resultados da Previsão Futura Arima e Prophet**
 
-Abaixo, constam os resultados dos modelos que foram utilizados para prever o fechamento da bolsa, considerando 5 dias futuros depois do último data da base, sendo de 17/07 a 23/07. O Arima apresentou números mais próximos do fechamento real do IBOVESPA, mas ainda não tão preciso.
+Abaixo estão os resultados dos modelos utilizados para prever o fechamento da bolsa nos 5 dias seguintes ao último dado da base, que abrangem o período de 17/07 a 23/07. O modelo ARIMA apresentou previsões mais próximas dos fechamentos reais do IBOVESPA, embora ainda tão preciso.
 
 |               | Modelo Arima      | Modelo Prophet    |
 |---------------|-------------------|-------------------|                 
