@@ -35,12 +35,7 @@ Após os tratamentos pertinentes na base  foi realizada a divisão dos dados ent
 
 * **Realizando as previsões com o Modelo Arima**
 
-Para avaliar o comportamento do modelo, utilizou-se a predição para os próximos 15 dias (utilizando 80% treino e 20% teste). Este apresentou um RMSE (Root Mean Squared Error) de 1%. 
-
-![](figure/base_hist_80_20_15_dias_arima.png)
-
-
-Posteriormente, realizando predição futura para os próximos 15 dias em que utilizou-se a base histórica (base de treino (03-01-2005 - 01/07/2024)). Obtendo-se um RMSE (Root Mean Squared Error) de 1,3%. 
+Para realizar predição futura para os próximos 15 dias em que utilizou-se a base histórica (base de treino (03-01-2005 - 01/07/2024)). Obtendo-se um RMSE (Root Mean Squared Error) de 1,3%. 
 
 ![](figure/base_hist_completa_15_dias_arima.png)
 
