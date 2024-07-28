@@ -57,7 +57,7 @@ Inicialmente, assim como no Arima, utilizou-se dados para 10 dias teste e 5 para
 ![](figure/base_hist_80_20_15_dias_prophet.png)
 
 
-Posteriormente, considerando as mesmas informações anteriores, foi utilizado 95% treino e 5% teste. Obtendo-se um RMSE de 6%. 
+Posteriormente, considerando as mesmas informações anteriores, foi utilizado 95% treino e 5% teste, para entender o comportamento dos dados. Obtendo-se um RMSE de 6%. 
 
 ![](figure/base_hist_completa_15_dias_prophet.png)
 
