@@ -57,7 +57,7 @@ Posteriormente, realizando predição para os próximos 15 dias (utilizando 95% 
 ![](figure/base_hist_completa_15_dias_prophet.png)
 
 
-O modelo Prophet apresentou bons resultados.
+O modelo Prophet apresentou resultados medianos, sendo que os melhores resultados podem ser observados em poucos dias.
 
 Previsão Futura - Foram preditos o fechamento da bolsa nos próximos 5 dias.
 
