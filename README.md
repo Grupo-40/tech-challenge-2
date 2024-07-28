@@ -13,6 +13,7 @@ Dividimos os dados em períodos anuais e, posteriormente, em intervalos de 180 d
 
 **Arquivos .ipynb**
 ---
+Todo o desenvolvimento e resultados obtidos estão disponível em: [Resultados] (https://github.com/Grupo-40/tech-challenge-2/tree/main/eda)
 
 
 **Modelos Testados**
