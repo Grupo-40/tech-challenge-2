@@ -35,7 +35,7 @@ Após os tratamentos pertinentes na base  foi realizada a divisão dos dados ent
 
 * **Realizando as previsões com o Modelo Arima**
   
-Aplicou-se o modelo ARIMA com os “p”, “d” e “q” com os valores 1, 1 e 1 respectivamente. Assim obteve-se um RMSE (Root Mean Squared Error) de 11%. A determinação dos valores dos termos pode não ser exata, dado que depende da análise,assim, podendo ser incorreta.
+Aplicou-se o modelo ARIMA com os “p”, “d” e “q” com os valores 1, 1 e 1 respectivamente. Assim obteve-se um RMSE (Root Mean Squared Error) de 11%. A determinação dos valores dos termos pode não ser exata, dado que depende da análise,assim, podendo ser incorreta. Assim, entendendo esta dificuldade, utilizou-se a função pmd.arima.auto_arima. Está foi projetada para selecionar o modelo ARIMA ideal. 
 
 Para realizar predição futura para os próximos 15 dias em que utilizou-se a base histórica (base de treino (03-01-2005 - 01/07/2024)). Obtendo-se um RMSE (Root Mean Squared Error) de 1,3%. 
 
