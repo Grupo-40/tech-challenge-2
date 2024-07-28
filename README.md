@@ -7,7 +7,7 @@ Realizar um modelo preditivo com dados da IBOVESPA(Bolsa de valores) para criar 
 **Contexto**
 ---
 
-Neste projeto, analisamos e previmos o fechamento da IBOVESPA utilizando dados de 2005 a 2024, o principal indicador de desempenho das ações negociadas na B3, sendo a bolsa de valores oficial do Brasil.
+Neste projeto, analisamos e previmos o fechamento do IBOVESPA, o principal índice de desempenho das ações negociadas na B3, a bolsa de valores oficial do Brasil, utilizando dados de 2005 a 2024.
 
 Dividimos os dados em períodos anuais e, posteriormente, em intervalos de 180 dias, para identificar padrões e tendências de mercado. Aplicamos modelos de previsão para intervalos de 3 a 15 dias, com o objetivo de melhorar a precisão e entender as variações de curto prazo. Esta abordagem detalhada visa aprimorar a tomada de decisão em investimentos financeiros.
 
