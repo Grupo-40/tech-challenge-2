@@ -6,11 +6,8 @@ Realizar um modelo preditivo com dados da IBOVESPA(Bolsa de valores) para criar 
 
 **Contexto**
 ---
-O Índice Bovespa, ou Ibovespa, é o principal indicador de desempenho das ações negociadas na B3, a bolsa de valores oficial do Brasil. Criado em 1968, o índice reúne as empresas mais importantes do país, e consolidou-se ao longo dos anos como a referência do mercado de capitais brasileiro para investidores locais e estrangeiros (SILVEIRA, 2010).
 
-**Fonte de Dados:** [Site da Investing](https://br.investing.com/indices/bovespa-historical-data). 
-
-Neste projeto, analisamos e previmos investimentos utilizando dados de 2005 a 2024. Dividimos os dados em períodos anuais e, posteriormente, em intervalos de 180 dias, para identificar padrões e tendências de mercado. Aplicamos modelos de previsão para intervalos de 3 e 15 dias, com o objetivo de melhorar a precisão e entender as variações de curto prazo. Esta abordagem detalhada visa aprimorar a tomada de decisão em investimentos financeiros.
+Neste projeto, analisamos e previmos investimentos utilizando dados de 2005 a 2024, extraído do IBOVESPA, o principal indicador de desempenho das ações negociadas na B3, a bolsa de valores oficial do Brasil.  Dividimos os dados em períodos anuais e, posteriormente, em intervalos de 180 dias, para identificar padrões e tendências de mercado. Aplicamos modelos de previsão para intervalos de 3 a 15 dias, com o objetivo de melhorar a precisão e entender as variações de curto prazo. Esta abordagem detalhada visa aprimorar a tomada de decisão em investimentos financeiros.
 
 **Modelos Testados**
 ---
