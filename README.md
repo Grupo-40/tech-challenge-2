@@ -35,17 +35,17 @@ Após os tratamentos pertinentes na base  foi realizada a divisão dos dados ent
 
 * **Realizando as previsões com o Modelo Arima**
 
-Inicialmente utilizou-se a predição para os próximos 15 dias (utilizando 80% treino e 20% teste). Este apresentou um RMSE (Root Mean Squared Error) de 1%. 
+Para avaliar o comportamento do modelo, utilizou-se a predição para os próximos 15 dias (utilizando 80% treino e 20% teste). Este apresentou um RMSE (Root Mean Squared Error) de 1%. 
 
 ![](figure/base_hist_80_20_15_dias_arima.png)
 
 
-Posteriormente, realizando predição para os próximos 15 dias (base de treino (03-01-2005 - 01/07/2024)). Obtendo-se um RMSE (Root Mean Squared Error) de 1,3%. 
+Posteriormente, realizando predição futura para os próximos 15 dias em que utilizou-se a base histórica (base de treino (03-01-2005 - 01/07/2024)). Obtendo-se um RMSE (Root Mean Squared Error) de 1,3%. 
 
 ![](figure/base_hist_completa_15_dias_arima.png)
 
 
-O modelo Auto Arima apresentou bons resultados quando utilizado para prever poucos dias.
+O modelo Arima apresentou bons resultados quando utilizado para prever poucos dias.
 
 
 * **Realizando as previsões com o Modelo Prophet**
@@ -61,6 +61,17 @@ Posteriormente, realizando predição para os próximos 15 dias (utilizando 95% 
 
 
 O modelo Prophet apresentou bons resultados.
+
+Previsão Futura - Foram preditos o fechamento da bolsa nos próximos 5 dias.
+
+|               | Modelo Arima      | Modelo Prophet    |
+|---------------|-------------------|-------------------|                 
+| 2024-07-17    | 128466.96         | 116201.06         | 
+| 2024-07-18    | 129451.42         | 116275.63         | 
+| 2024-07-19    | 129460.74         | 116364.82         | 
+| 2024-07-22    | 130204.63         | 116508.02         | 
+| 2024-07-23    | 130370.51         | 116542.33         | 
+
 
 
 Principais motivos : 
