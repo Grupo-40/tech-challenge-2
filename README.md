@@ -11,6 +11,10 @@ Neste projeto, analisamos e previmos o fechamento do IBOVESPA, o principal índi
 
 Dividimos os dados em períodos anuais e, posteriormente, em intervalos de 180 dias, para identificar padrões e tendências de mercado. Aplicamos modelos de previsão para intervalos de 3 a 15 dias, com o objetivo de melhorar a precisão e entender as variações de curto prazo. Esta abordagem detalhada visa aprimorar a tomada de decisão em investimentos financeiros.
 
+**Arquivos .ipynb**
+---
+
+
 **Modelos Testados**
 ---
 
@@ -47,12 +51,12 @@ O modelo Arima apresentou bons resultados quando utilizado para prever poucos di
 
 * **Realizando as previsões com o Modelo Prophet**
 
-Inicialmente utilizou-se a predição para os próximos 15 dias (utilizando 80% treino e 20% teste). Este apresentou um RMSE (Root Mean Squared Error) de 16%. 
+Inicialmente utilizou-se a predição para os próximos 15 dias (utilizando 80% treino e 20% teste). Este apresentou um RMSE de 16%. 
 
 ![](figure/base_hist_80_20_15_dias_prophet.png)
 
 
-Posteriormente, realizando predição para os próximos 15 dias (utilizando 95% treino e 5% teste). Obtendo-se um RMSE (Root Mean Squared Error) de 6%. 
+Posteriormente, realizando predição para os próximos 15 dias (utilizando 95% treino e 5% teste). Obtendo-se um RMSE de 6%. 
 
 ![](figure/base_hist_completa_15_dias_prophet.png)
 
@@ -83,4 +87,5 @@ Principais motivos :
 **Referências Bibliográficas**
 ---
 SILVEIRA, P. H. M. (2019). O que move o preço da ação? Um estudo sobre as maiores variações diárias do Ibovespa na década de 2010.
+[Site Investing](https://br.investing.com/indices/bovespa-historical-data)
 
