@@ -22,7 +22,7 @@ Dividimos os dados em períodos anuais e, posteriormente, em intervalos de 180 d
 **Resultados**
 ---
 
-Para a análise foram coletados dados de preços (máximos, mínimos, aberturas e fechamentos) em  periodicidades diárias, conforme pode-se observar no gráfico. Destaca-se que a base histórica possui oscilações ao longo do período. Sendo identificadas quedas significativas no fechamento da IBOVESPA em 2009, 2016 e 2019. Essas quedas estão relacionadas com a crise imobiliária mundial iniciada nos Estados Unidos, a  crise na política brasileira e a pandemia do COVID-19, respectivamente.
+Para a análise foram coletados dados de preços (máximos, mínimos, aberturas e fechamentos) em  periodicidades diárias, conforme pode-se observar no gráfico. Destaca-se que a base histórica possui oscilações ao longo do período. Sendo identificadas quedas significativas no fechamento da IBOVESPA em 2009, 2016 e 2020. Essas quedas estão relacionadas com a crise imobiliária mundial iniciada nos Estados Unidos, a  crise na política brasileira e a pandemia do COVID-19, respectivamente.
 
 ![](figure/fechamento_hist.png)
 
