@@ -64,7 +64,7 @@ Posteriormente, considerando as mesmas informações anteriores, foi utilizado 9
 
 O modelo Prophet apresentou resultados medianos, sendo mais eficaz em previsões de curto a médio prazo. No entanto, o mercado de ações é altamente volátil e influenciado por fatores imprevisíveis, como notícias, eventos políticos e mudanças econômicas, o que dificulta a previsão precisa. Além disso, muitas ações seguem padrões complexos que os modelos lineares não conseguem capturar adequadamente, evidenciando a necessidade de abordagens mais sofisticadas para previsões de longo prazo.
 
-* **Previsão Futura Arima e Prophet**
+* **Resultados da Previsão Futura Arima e Prophet**
 
 Foram preditos o fechamento da bolsa nos próximos 5 dias. Sendo o Arima com números mais próximos do fechamento real do IBOVESPA.
 
