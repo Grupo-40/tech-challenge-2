@@ -1,4 +1,13 @@
 # **Projeto - Previsão IBOVESPA**
+---
+
+**Grupo 40** - Autores:<br>
+André Lima Inácio<br>
+Bruna Afonso dos Santos<br>
+Charles Ringenberg<br>
+Jheniffer Dias Pereira<br>
+Pâmela Cristine Amorim Joanas
+
 
 **Proposta do Projeto**
 ---
