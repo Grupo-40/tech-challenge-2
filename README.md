@@ -42,7 +42,7 @@ Após os tratamentos pertinentes na base foi realizada a divisão dos dados entr
   
 Aplicou-se o modelo ARIMA com os termos “p”, “d” e “q” com os valores 1, 1 e 1 respectivamente. Assim obteve-se um RMSE (Root Mean Squared Error) de 11%. A determinação dos valores dos termos pode não ser exata, dado que depende da análise do observador, assim, podendo ser incorreta. Entendendo esta dificuldade, utilizou-se a função **pmd.arima.auto_arima**. Está foi projetada para selecionar o modelo ARIMA ideal. 
 
-Para realizar predição, considerou-se 10 dias para teste e 5 para previsão futura, para isso utilizou-se a base histórica (base de treino (03-01-2005 - 01/07/2024)). Obtendo-se um RMSE (Root Mean Squared Error) de 1,3%. 
+Para realizar predição, considerou-se 15 dias para teste e 5 para previsão futura, para isso utilizou-se a base histórica (base de treino (03-01-2005 - 01/07/2024)). Obtendo-se um RMSE (Root Mean Squared Error) de 1,3%. 
 
 ![](figure/base_hist_completa_15_dias_arima.png)
 
@@ -52,12 +52,12 @@ O modelo Arima apresentou bons resultados quando utilizado para prever poucos di
 
 * **Realizando as previsões com o Modelo Prophet**
 
-Inicialmente, assim como no Arima, utilizou-se dados para 10 dias para teste e 5 para previsão futura, sendo 80% treino e 20% teste. Este apresentou um RMSE de 16%. 
+Inicialmente, com o objetivo de entender o comportamento do modelo utilizou-se 80% treino e 20% teste. Este apresentou um RMSE de 16%. 
 
 ![](figure/base_hist_80_20_15_dias_prophet.png)
 
 
-Posteriormente, utilizou-se os mesmos dados, mas com ajuste na proporção entre treino e teste para 95% e 5%, respectivamente, com o objetivo de entender melhor o comportamento dos dados. Essa abordagem resultou em um RMSE de 6%.
+Posteriormente, utilizou-se os mesmos dados, mas com ajuste na proporção entre treino e teste para 95% e 5%, respectivamente. Sendo 5% dos dados para teste e previsão futura de 5 dias. Essa abordagem resultou em um RMSE de 6%.
 
 ![](figure/base_hist_completa_15_dias_prophet.png)
 
