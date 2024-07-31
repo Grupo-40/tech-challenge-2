@@ -2,11 +2,11 @@
 ---
 
 **Grupo 40** - Autores:<br>
-André Lima Inácio<br>
-Bruna Afonso dos Santos<br>
-Charles Ringenberg<br>
-Jheniffer Dias Pereira<br>
-Pâmela Cristine Amorim Joanas
+André Lima Inácio - RM:354038<br>
+Bruna Afonso dos Santos - RM:353283<br>
+Charles Ringenberg - RM:353613<br>
+Jheniffer Dias Pereira - RM:354034<br>
+Pâmela Cristine Amorim Joanas - RM:353440<br>
 
 
 **Proposta do Projeto**
@@ -18,7 +18,7 @@ Realizar um modelo preditivo com dados da IBOVESPA(Bolsa de valores) para criar 
 
 Neste projeto, analisamos e previmos o fechamento do IBOVESPA, o principal índice de desempenho das ações negociadas na B3, a bolsa de valores oficial do Brasil, utilizando dados de 2005 a 2024.
 
-Dividimos os dados em período anual para compreender o cenário total da base, posteriormente, em intervalos diários, para identificar padrões e tendências de mercado. Aplicamos modelos de previsão para intervalos de 3, 5 a 10 dias, com o objetivo de melhorar a precisão e entender as variações de curto prazo. Esta abordagem detalhada visa aprimorar a tomada de decisão em investimentos financeiros.
+Dividimos os dados em período anual para compreender o cenário total da base, posteriormente, em intervalos diários, para identificar padrões e tendências de mercado. Aplicamos modelos de previsão para intervalos de 3 e 5 dias, com o objetivo de melhorar a precisão e entender as variações de curto prazo. Esta abordagem detalhada visa aprimorar a tomada de decisão em investimentos financeiros.
 
 **Arquivos .ipynb**
 ---
@@ -101,7 +101,8 @@ O modelo Baseline (Naive) apresentou um MAPE de 1,06% no conjunto de teste para 
 
 * **Resultados da Previsão Futura Arima, Prophet e Sarima**
 
-Abaixo estão os resultados dos modelos utilizados para prever o fechamento da bolsa nos 5 dias seguintes ao último dado da base, que abrangem o período de 17/07 a 23/07. O modelo Auto ARIMA apresentou previsões mais próximas dos fechamentos reais do IBOVESPA, embora ainda não tão preciso. Em comparação com o modelo Prophet, o modelo Auto ARIMA se mostrou mais efetivo em capturar os movimentos de oscilação dos dados no futuro.
+Abaixo estão os resultados dos modelos utilizados para prever o fechamento da bolsa nos 5 dias seguintes ao último dado da base, que abrangem o período de 17/07 a 23/07. O modelo Auto SARIMA apresentou previsões mais próximas dos fechamentos reais do IBOVESPA. Em comparação com o modelo Prophet, muitas atividades seguem padrões complexos que os modelos lineares não conseguem captar corretamente; e o modelo Auto ARIMA se mostrou mais efetivo em capturar os movimentos de oscilação dos dados no futuro, porém para prever poucos dias, dado as suas particularidades, ambos não atingiram um nível de assertividade como o do Sarima.
+
 
 |               | Modelo Arima      | Modelo Prophet    | Modelo Sarima     |
 |---------------|-------------------|-------------------|-------------------|                
