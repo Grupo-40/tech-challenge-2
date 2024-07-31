@@ -50,13 +50,13 @@ Após os tratamentos pertinentes na base foi realizada a divisão dos dados entr
 
 Dividimos os dados históricos em dois períodos: os 6 meses mais recentes foram utilizados para testar os modelos, enquanto os dados anteriores foram destinados ao treinamento.
 
-![Alt text]('foto da divisao')
+![Alt text](figure/treino-teste.png)
 
 Para garantir uma avaliação precisa e robusta dos modelos, aplicamos o método de Cross Validation específico para séries temporais.
 
 Durante os testes, experimentamos diversas durações de "janelas" de treinamento para a previsão. No caso do modelo SARIMA, constatamos que uma janela de 180 dias produziu os melhores resultados na validação cruzada.
 
-![Resultados das Janelas]('foto das diferentes janelas')
+![Resultados das Janelas](figure/janelas-treino.png)
 
 Com base nesses resultados, definimos que o modelo seria treinado utilizando os dados dos últimos 180 dias para prever os próximos 3 dias.
 
@@ -90,13 +90,13 @@ O modelo Prophet apresentou resultados medianos, sendo mais eficaz em previsões
   
 O modelo SARIMA, por sua vez, obteve um MAPE de 0,50% para o mesmo período de previsão, destacando-se como o modelo mais preciso.
 
-![Alt text]('foto do teste sarima')
+![Alt text](figure/sarima-teste.png)
 
 * **Realizando as previsões com o Modelo Naive**
   
 O modelo Baseline (Naive) apresentou um MAPE de 1,06% no conjunto de teste para a previsão de 3 dias. Esse resultado foi utilizado como benchmark para os demais modelos.
 
-![Alt text]('foto do teste baseline')
+![Alt text](figure/baseline-teste.png)
 
 
 * **Resultados da Previsão Futura Arima, Prophet e Sarima**
