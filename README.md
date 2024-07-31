@@ -84,7 +84,7 @@ Posteriormente, utilizou-se os mesmos dados, mas com ajuste na proporção entre
 ![](figure/base_hist_completa_15_dias_prophet.png)
 
 
-O modelo Prophet apresentou resultados medianos, sendo mais eficaz em previsões de curto a médio prazo. No entanto, o mercado de ações é altamente volátil e influenciado por fatores imprevisíveis, como notícias, eventos políticos e mudanças econômicas, o que dificulta a previsão precisa. Além disso, muitas ações seguem padrões complexos que os modelos lineares não conseguem capturar adequadamente, evidenciando a necessidade de abordagens mais sofisticadas para previsões de longo prazo.
+O modelo Prophet apresentou resultados medianos, sendo mais eficaz em previsões de curto prazo. Em mercados financeiros altamente voláteis, esses pressupostos podem não capturar todas as nuances dos dados. Dado que o mercado de ações é altamente volátil e influenciado por fatores imprevisíveis, como notícias, eventos políticos e mudanças econômicas, dificulta a previsão precisa. Além disso, muitas ações seguem padrões complexos que os modelos lineares não conseguem capturar adequadamente, evidenciando a necessidade de abordagens mais sofisticadas para previsões de longo prazo.
 
 * **Realizando as previsões com o Modelo Sarima**
   
@@ -101,7 +101,7 @@ O modelo Baseline (Naive) apresentou um MAPE de 1,06% no conjunto de teste para 
 
 * **Resultados da Previsão Futura Arima, Prophet e Sarima**
 
-Abaixo estão os resultados dos modelos utilizados para prever o fechamento da bolsa nos 5 dias seguintes ao último dado da base, que abrangem o período de 17/07 a 23/07. O modelo Auto SARIMA apresentou previsões mais próximas dos fechamentos reais do IBOVESPA. Em comparação com o modelo Prophet, muitas atividades seguem padrões complexos que os modelos lineares não conseguem captar corretamente; e o modelo Auto ARIMA se mostrou mais efetivo em capturar os movimentos de oscilação dos dados no futuro, porém para prever poucos dias, dado as suas particularidades, ambos não atingiram um nível de assertividade como o do Sarima.
+Abaixo estão os resultados dos modelos utilizados para prever o fechamento da bolsa nos 5 dias seguintes ao último dado da base, que abrangem o período de 17/07 a 23/07. O modelo SARIMA apresentou previsões mais próximas dos fechamentos reais do IBOVESPA. Em comparação com o modelo Prophet, muitas atividades seguem padrões complexos que os modelos lineares não conseguem captar corretamente; e o modelo Auto ARIMA se mostrou mais efetivo em capturar os movimentos de oscilação dos dados no futuro, porém para prever poucos dias, dado as suas particularidades, ambos não atingiram um nível de assertividade como o do SARIMA.
 
 
 |               | Modelo Arima      | Modelo Prophet    | Modelo Sarima     |
