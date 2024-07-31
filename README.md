@@ -112,6 +112,7 @@ Abaixo estão os resultados dos modelos utilizados para prever o fechamento da b
 | 2024-07-23    | 130370.51         | 116542.33         | 127695.29         |
 
 
+
 ![](figure/Comparação_Modelos_IBOVESPA.png)
 
 
