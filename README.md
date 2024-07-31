@@ -112,6 +112,9 @@ Abaixo estão os resultados dos modelos utilizados para prever o fechamento da b
 | 2024-07-23    | 130370.51         | 116542.33         | 127695.29         |
 
 
+![](figure/Comparação_Modelos_IBOVESPA.png)
+
+
 **Conclusões**
 ---
 Com base nas análises realizadas com os modelos testados, juntamente com as métricas e validações usadas, que foram erro Percentual Absoluto Médio (MAPE) como métrica para avaliar a precisão dos modelos; e para a validação, empregamos a técnica de Janelas Deslizantes (Sliding Window), que nos permite testar o modelo em diferentes intervalos temporais, garantindo a robustez dos resultados, respectivamente. É válido ressaltar que todos os modelos atingiram uma taxa de acuracidade maior 70%, porém existe um modelo mais assertivo, mediante aos resultados apresentados e análises, que é o modelo SARIMA. O modelo foi treinado com dados dos últimos 180 dias, foi escolhido como o mais adequado para as previsões. Ele demonstrou um excelente desempenho tanto na fase de validação quanto na fase de teste. 
